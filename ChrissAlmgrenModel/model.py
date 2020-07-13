@@ -40,7 +40,7 @@ class Actor(nn.Module):
         x = F.relu(self.fc2(x))
         return F.tanh(self.fc3(x))
 
-
+"Q Value function"
 class Critic(nn.Module):
     """Critic (Value) Model."""
 
